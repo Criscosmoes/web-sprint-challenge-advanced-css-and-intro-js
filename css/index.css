@@ -23,6 +23,7 @@ vertical-align: baseline;
 * {
 
     box-sizing: border-box;
+    border: 2px solid gray; 
 }
 
 html{
@@ -155,9 +156,10 @@ button:hover{
         
         width: 100%; 
         background-position: center;
-        background-size: 225%;
+        background-size: 220%;
         background-repeat: no-repeat;
-        height: 61.5vh; 
+        height: 61.5vh;
+        margin-bottom: 2%;
         
     }
 
@@ -167,6 +169,7 @@ button:hover{
         display: flex; 
         flex-direction: column;
         align-items: center;
+        margin-bottom: 15%;
 
     
     }
@@ -185,12 +188,12 @@ button:hover{
 
     .bio {
         width: 80%; 
-        font-size: 1.6rem; 
+        font-size: 1.47rem; 
     }
 
    
     a.joseph {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     #break {
@@ -204,8 +207,18 @@ button:hover{
         margin-bottom: 2%;
     }
 
-    .background {
-        width: 5%; 
+    span {
+       height: 95%; 
+    }
+
+    button {
+        padding: 1.5%; 
+        border-radius: 5%;
+        width: 28%; 
+    }
+
+    .artist img.img-joseph {
+        width: 65%; 
     }
 
 }
